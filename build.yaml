@@ -1,10 +1,10 @@
-name: "AniList"
-guid: "1bd22884-44be-40f3-ad95-fc4a7834ba2c"
+name: "AniList English"
+guid: "fe9c23f6-1eb9-4bfb-b7ca-4557ca2707e3"
 imageUrl: "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png"
-version: 11
+version: 1
 targetAbi: "10.10.6.0"
 framework: "net8.0"
-owner: "jellyfin"
+owner: "Skael"
 overview: "AniList metadata provider"
 description: >
   AniList metadata provider
@@ -13,7 +13,4 @@ category: "Metadata"
 artifacts:
   - "Jellyfin.Plugin.AniList.dll"
 changelog: |-
-  - Cleanup (#91) @Shadowghost
-
-  ### New features and improvements ###
-  - Added a setting to make only animation studio appear as metadata (with fixes) (#88) @sjorge
+  - none
