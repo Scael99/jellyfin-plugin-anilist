@@ -207,6 +207,11 @@ namespace Jellyfin.Plugin.AniList.Providers.AniList
                         {
                             continue;
                         }
+                        if (config.PersonLanguageFilterPreference == LanguageFilterType.English
+                            && !va.language.Equals("English", StringComparison.OrdinalIgnoreCase))
+                        {
+                            continue;
+                        }
                     }
 
                     PeopleHelper.AddPerson(lpi, new PersonInfo {
