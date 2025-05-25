@@ -1,0 +1,12 @@
+[
+    {
+        "category": "Metadata",
+        "guid": "fe9c23f6-1eb9-4bfb-b7ca-4557ca2707e3",
+        "name": "AniList English",
+        "description": "This plugin supports several different metadata providers and options for organizing your collection.",
+        "owner": "Skael",
+        "overview": "Manage Your Anime in Jellyfin",
+        "versions": [
+        ]
+    }
+]
