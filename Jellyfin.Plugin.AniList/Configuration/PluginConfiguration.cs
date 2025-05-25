@@ -28,6 +28,7 @@ namespace Jellyfin.Plugin.AniList.Configuration
     public enum LanguageFilterType {
         Localized,
         Japanese,
+        English,
         All
     }
 
